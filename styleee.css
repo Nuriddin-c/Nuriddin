@@ -1,0 +1,701 @@
+.container{
+    background: linear-gradient(to top,rgb(3, 0, 81),rgb(2, 24, 97),black);
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 20px;
+}
+.yozuv{
+    margin-left: 50px;
+    margin-top: -15px;
+    animation: sahifa 2s;
+    text-shadow: 0px 0px 20px;
+}
+@keyframes sahifa{
+    0%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+}
+.linklar{
+    margin-left: 500px;
+    margin-top: -40px;
+    display: flex;
+    gap: 30px;
+    text-shadow: 0px 0px 5px;
+}
+
+.linklar a:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    color: rgb(91, 91, 91);
+}
+.linklar a{
+    color: white;
+    text-decoration: none;
+
+}
+#call{
+    margin-left: 850px;
+    background-color: inherit;
+    color: white;
+    border: none;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-top: -20px;
+    animation: call 3s;
+}
+@keyframes call{
+    0%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(50px);
+    }    
+}
+/* search */
+input{
+    text-align: center ;
+    width: 150px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: inherit;
+    border: none;
+    border: solid 2px white;
+    border-radius: 25px;
+    animation: sech 1.8s;
+    color: white;
+}
+
+input:focus{
+    width: 850px;
+    height: 35px;
+    transform: translatey(-10px);
+    transition: 0.8s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+    border-radius: 30px;  
+        text-align: center;  
+}
+@keyframes sech{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }    
+}
+
+@keyframes srchbtn{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+/* cardlar */
+.Cardlar{
+    display: flex;
+    gap: 30px ;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.bolim-2{
+    display: flex;
+    gap: 30px ;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.bolim-3{
+    display: flex;
+    gap: 30px ;
+    margin-left: 60px;
+    margin-top: 50px;    
+}
+.card-1{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-11 2s;
+    border-radius: 10px;
+}
+.card-1:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-11{
+    0%{
+        transform: translateY(1000px);
+    
+    }
+    50%{
+        transform: translateY(-20px);
+    
+    } 
+    
+    
+}
+#btn-1{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-1 2.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-1:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-1{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+.card-2{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-2 2.5s;
+        border-radius: 10px;
+}
+.card-2:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-2{
+    0%{
+        transform: translateY(1000px);
+
+    }
+    50%{
+        transform: translateY(-20px);
+
+    } 
+
+    
+    
+}
+#btn-2{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-2 3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-2:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-2{
+    0%{
+        transform: translateY(1000px);
+
+    }
+    50%{
+        transform: translateY(-20px);
+
+    } 
+
+    
+    
+}
+.card-3{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-3 3s;
+        border-radius: 10px;
+}
+.card-3:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-3{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-3{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-3 3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-3:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-2{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+}    
+    
+
+
+span{
+    color: rgb(197, 197, 197);
+}
+
+.about{
+
+    width: 1000px;
+    display: flex;
+margin-top: 35px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30px;
+    animation: abo 3s;
+}
+@keyframes abo{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+}
+.about button{
+    background-color: inherit;
+    color: white;
+    border: none;
+    border: solid rgb(255, 255, 255);
+    border-radius: 20px;
+ 
+}
+.about h4{
+    margin: auto;
+}
+.about p{
+    margin: auto;
+    color: #7c7c7c;
+}
+#n1{
+    animation: n1 2.5s;
+
+}
+.about{
+    animation: ddd 3s infinite;
+}
+@keyframes ddd{
+    0%{
+        box-shadow:0px 0px 10px ;
+    }
+    50%{
+        box-shadow:0px 0px 20px ;
+    }
+    80%{
+        box-shadow:0px 0px 30px ;
+    }
+    99%{
+        box-shadow: 0px 0px 10px;
+    }
+}
+@keyframes n1{
+    0%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(50px);
+    }    
+}
+#n2{
+    animation: n2 2s;
+}
+@keyframes n2{
+    0%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(50px);
+    }    
+}
+#n3{
+    animation: n3 1.5s;
+}
+@keyframes n3{
+    0%{
+        transform: translateX(-1000px);
+    }
+    50%{
+        transform: translateX(50px);
+    }    
+}
+
+
+/* 3 */
+.card-4{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-4 2.5s;
+    border-radius: 10px;
+}
+.card-4:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-4{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-4{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-4 3s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-4:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-4{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+}
+/* 5 */
+.card-5{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-5 3.5s;
+    border-radius: 10px;
+}
+.card-5:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-5{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-5{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-5 3.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-5:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-5{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+}
+/* 5 */
+.card-6{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-6 4s;
+    border-radius: 10px;
+}
+.card-6:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-6{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-6{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-6 4.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-6:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-6{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+}
+/* 5 */
+.card-7{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-6 4.5s;
+    border-radius: 10px;
+}
+.card-7:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-7{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-7{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-6 5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-7:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-7{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+}
+
+/* 6 */
+.card-8{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-6 5s;
+    border-radius: 10px;
+}
+.card-8:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-8{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-8{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-6 5.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-8:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-8{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+}
+
+
+/* 6 */
+.card-9{
+    background-color: inherit;
+    box-shadow: 0px 0px 30px black;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    animation: card-6 6s;
+    border-radius: 10px;
+}
+.card-9:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-9{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+    
+}
+#btn-9{
+    background-color: inherit;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    margin-left: -280px;
+    border: none;
+    animation: card-6 6.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;  
+    color: white;  
+}
+#btn-9:hover{
+    transform: translatey(-10px);
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px rgb(72, 72, 72);
+        border-radius: 30px;
+}
+@keyframes card-9{
+    0%{
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateY(-20px);
+    } 
+    
+}
